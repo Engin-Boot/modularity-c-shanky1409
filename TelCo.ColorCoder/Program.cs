@@ -6,18 +6,10 @@ using static TelCo.ColorCoder.Utils.Colors;
 
 namespace TelCo.ColorCoder
 {
-    /// <summary>
-    /// The 25-pair color code, originally known as even-count color code, 
-    /// is a color code used to identify individual conductors in twisted-pair 
-    /// wiring for telecommunications.
-    /// This class provides the color coding and 
-    /// mapping of pair number to color and color to pair number.
-    /// </summary>
     class Program
     {
         public static void Main(string[] args)
         {
-            Colors cs = new Colors(); 
             int pairNumber = 4;
             ColorPair testPair1 = GetColorFromPairNumber(pairNumber);
             Console.WriteLine("[In]Pair Number: {0},[Out] Colors: {1}\n", pairNumber, testPair1);
@@ -45,7 +37,6 @@ namespace TelCo.ColorCoder
             pairNumber = GetPairNumberFromColor(testPair2);
             Console.WriteLine("[In]Colors: {0}, [Out] PairNumber: {1}", testPair2, pairNumber);
             Debug.Assert(pairNumber == 6);
-            Console.WriteLine("\n\n\n"+cs);
         }
     }
 }
