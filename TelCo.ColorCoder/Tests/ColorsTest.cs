@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Drawing;
 using TelCo.ColorCoder.Utils;
+using TelCo.ColorCoder;
 
 namespace TelCo.ColorCoder.Tests
 {
@@ -40,7 +41,7 @@ namespace TelCo.ColorCoder.Tests
 
             testPair2 = new ColorPair() { majorColor = Color.Red, minorColor = Color.Blue };
             pairNumber = Colors.GetPairNumberFromColor(testPair2);
-            Console.WriteLine("[In]Colors: {0}, [Out] PairNumber: {1}", testPair2, pairNumber);
+            Console.WriteLine("[In]Colors: {0}, [Out] PairNumber: {1}\n", testPair2, pairNumber);
             Debug.Assert(pairNumber == 6);
         }
     }

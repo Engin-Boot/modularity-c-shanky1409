@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
-using System.Drawing;
-using TelCo.ColorCoder.Utils;
+
 namespace TelCo.ColorCoder.Tests
 {
     internal static class ColorCodeRegistryTest
