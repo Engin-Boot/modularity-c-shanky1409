@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace TelCo.ColorCoder
+namespace TelCo.ColorCoder.Data
 {
     /// <summary>
     /// data type defined to hold the two colors of color pair

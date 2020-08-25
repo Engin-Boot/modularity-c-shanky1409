@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Drawing;
 using TelCo.ColorCoder.Utils;
-using TelCo.ColorCoder;
+using TelCo.ColorCoder.Data;
 
 namespace TelCo.ColorCoder.Tests
 {
